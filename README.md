@@ -1,1 +1,2 @@
-It's a toolset for working with arrays in C# I find useful.
+#Camila.ArrayUtils
+A toolset for working with arrays in C# I find useful.
