@@ -12,7 +12,7 @@ namespace Camila {
                 return (T[]) Array;
             T[] result = new T[Array.GetLengths ().Product ()];
             int[] lengths = Array.GetLengths ();
-            Parallel.For ( 0, result.Length, i => result[i] = (T) Array.GetValue ( Utils.Array.GetIndices ( lengths, i ) ) );
+            Parallel.For ( 0, result.Length, i => result[i] = (T) Array.GetValue ( ArrayUtils.GetIndices ( lengths, i ) ) );
             return result;
         }
         
